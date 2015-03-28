@@ -38,11 +38,28 @@ Hardware/Software Specs:
 Project Planning:
 
   Schedule: - Project time period: March 9 - April 26
-              - March 9: Project Overview
-              - March 16: Project Scope
-              - March 23: Project Research
-              - March 30: Project Development Begin
-              - April 06: Project Dev. Cont'd
-              - April 13: Project Dev. Debug
-              - April 20: Project Finalization
-              - April 26: Project Complete and Summission
+            - March 9: Project Overview
+              This outline what the project is and should be about. To install/setup an OpenVPN server/client with a user
+              friendly bash script is the main idea of the project.
+            
+            - March 16: Project Scope
+              Determining the project scope is critical and helps to put the work entailed into perspective. This will help
+              to distribute the work load per team member.
+            
+            - March 23: Project Research
+              Project research is essential. Finding and determine the proper tools and technology to use to complete this
+              project will aid in the efficiency of the end product. 
+            
+            - March 30: Project Development Begin
+              Project development begins.
+              
+            - April 06: Project Dev. Cont'd
+              Continuation of project development.
+            
+            - April 13: Project Dev. Debug
+              Finding any bugs in the code and creating patches to ensure smooth service delivery.
+            
+            - April 20: Project Finalization
+              Finilization of the project. Proper documentation and user friendly introduction to how to use the service. 
+            
+            - April 26: Project Complete and Summission
