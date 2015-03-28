@@ -1,1 +1,29 @@
 This is the project proposal
+
+Project Scope:
+
+  Project objectives: to create an easy, user friendly way to setup an OpenVPN server and/or client on a machine.
+  Goals: - create a bash script to aid in the setup of OpenVPN server
+         - create a bash script to aid int the setup of OpenVPN client
+  
+  Tasks: - select specific OS to setup OpenVPN server on (client can be any OS)
+         - determine steps/commands to install and setup an OpenVPN server/client
+         - compile steps/commands into a server/client bash script
+         
+  Resources: - CentOS7, Debian, OpenVPN software
+  
+  Schedule: - Project time period: March 9 - April 26
+            - March 9: Project Overview
+            - March 16: Project Scope
+            - March 23: Project Research
+            - March 30: Project Development Begin
+            - April 06: Project Dev. Cont'd
+            - April 13: Project Dev. Debug
+            - April 20: Project Finalization
+            - April 26: Project Complete and Summission
+
+Tools/Techniques/Technology used: 
+
+Hardware/Software Specs:
+
+Project Planning: (Write in detail how you are planning to complete your project by the end of course). 
