@@ -1,6 +1,11 @@
 #!/bin/bash
 
-echo ****Installing OpenVPNServer****
+clear
+echo "******************************************"
+echo "*   Welcome to EasyOpenVPN Installer     *"
+echo "*       by: Beesham and Kenneth          *"
+echo "******************************************"
+echo " "
 
 #checks if user is running file as root
 if [ "$(id -u)" != "0" ]; then
@@ -8,6 +13,27 @@ if [ "$(id -u)" != "0" ]; then
    echo "**Please log in as root then re-run script**"
    exit 1
 fi
+
+#Display Welcome Messages and Step by Step
+echo "Hello, Welcome to EasyOpenVPN!, Sit back and relax during this setup!"
+echo " "
+echo "************ BASIC SETUP ****************"
+echo "1) What is the IPv4 Address of the network interface you want to connect to?"
+read -p "IPv4 Address: " IP
+echo " "
+echo "2) What port do you want OpenVPN on? (1194 is standard)"
+read -p "Port: " PORT
+echo " "
+echo "3) Do you want to listen to port 53 as well?"
+read -p "Port 53 (y/n)" OTHERPORT
+echo ""
+echo "4) Enable internal networking?"
+read -p "Allow (y/n)?" INTERNAL
+echo ""
+echo "5) What is your Client Name?"
+read -p "Name: " NAME
+echo ""
+echo "GREAT!, we are done!, now we will install all the packages for you"
 
 #Installing the Extra Packages for Enterprise Linux (EPEL) repository. 
 #This is because OpenVPN isn't available in the default CentOS repositories. 
@@ -63,15 +89,3 @@ vi vars -c '%s/export KEY_COUNTRY="US"/export KEY_COUNTRY="$KEY_COUNTRY"/g' -c '
 
 
 #mv vars /etc/openvpn/easy-rsa/
-
-
-
-
-
-
-
-
-
-
-
-
