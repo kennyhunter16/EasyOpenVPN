@@ -7,7 +7,7 @@ Run script as root
 Follow instructions
 Done!
 
-# License
+# Copyright and License
 Copyright [2015] [Beesham/HunterIT]
 
 Licensed under the Apache License, Version 2.0 (the "License");
