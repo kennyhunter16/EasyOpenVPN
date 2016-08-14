@@ -1,11 +1,22 @@
 # EasyOpenVPN
 EasyOpenVPN is a bash script designed to setup an OpenVPN on a Debian-based machine.
 
+#About OpenVPN
+OpenVPN is an open-source software application that allows connection from point-to-point or site-to-site using a secure connection. It implements VPN techniques to create the secure connection needed. It uses a custom protocol that utilizes key exchange(SSL[Secure Sockets Layer]/TSL[Transport Layer Security]).
+OpenVPN allows for peer authentication. That is, when connecting to another location, some sort of verification must happen. This is basically the pre-shared key that was generated when the OpenVPN server was setup.
+A normal VPN client can be used to connect to the OpenVPN as long it has the client information needed by the server to authenticate. 
+
+#Platform Specifications
+OpenVPN can be installed on a Windows distribution or a Linux distribution but for the purpose of this script we created it for CentOS7/Debian Linux distributions.
+
 # Usage
-Download script to any dir
-Run script as root
-Follow instructions
+Download script to any dir <br>
+Run script as root <br>
+Follow terminal instructions <br>
 Done!
+
+#Development Status
+No future updates, only fixes
 
 # Copyright and License
 Copyright [2015] [Beesham/HunterIT]
